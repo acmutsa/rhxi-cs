@@ -3,7 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Coming Soon: RowdyHacks XI",
-  description: "Quick hero page for the upcoming RowdyHacks XI hackathon",
+  description: "Coming soon page for the upcoming RowdyHacks XI hackathon",
+  icons: {
+    icon: "/rh-logo.svg",
+  },
 };
 
 export default function RootLayout({
