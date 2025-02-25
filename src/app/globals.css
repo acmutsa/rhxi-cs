@@ -22,8 +22,8 @@ body {
 }
 
 .night {
-  background: var(--rh-night);
-  background-image: url("/star_bg.svg");
-  background-repeat: repeat;
-  background-size: 25%;
+  background: var(--rh-night) url("/star_bg.png") repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
 }
